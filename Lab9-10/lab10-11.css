@@ -1,0 +1,140 @@
+body{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+tr{
+    height: 70px;
+}
+tr:nth-child(2n){
+    background-color: #f9fafc;
+}
+th{
+    text-align: left;
+}  
+.active{
+    color: #3b936c;
+    border: 0px solid #ffffff00;
+    border-radius: 8px;
+    background-color: #e7f8f0;
+    font-size: 14px;
+    font-weight: bold;
+    
+    text-align: center;
+    padding: 2px;
+}
+.offline{
+    color: #28313e;
+    border: 1px solid #ffffff00;
+    border-radius: 8px;
+    background-color: #edeff4;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 2px;
+}
+.design{
+    color:#666bd7;
+    border: 1px solid #ffffff00;
+    border-radius: 8px;
+    background-color: #f2f0fb;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 2px;
+}
+.product{
+    color: #5f8fe1;
+    border: 1px solid #ffffff00;
+    border-radius: 8px;
+    background-color: #e9f3fb;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 2px;
+}
+.operations{
+    color: #cc5377;
+    border: 1px solid #ffffff00;
+    border-radius: 8px;
+    background-color: #f7ecf6;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 2px;
+}
+.soft{
+    color:#69b190;
+    border: 1px solid #ffffff00;
+    border-radius: 8px;
+    background-color: #ecfdf2;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 2px;
+}
+.marketing{
+    color: #5457d5;
+    border: 1px solid #ffffff00;
+    border-radius: 8px;
+    background-color: #edf3fe;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 2px;
+}
+.customer{
+    color: #6c6fd8;
+    border: 1px solid #ffffff00;
+    border-radius: 8px;
+    background-color: #e6eefa;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 2px;
+}
+.email{
+    color: #858d99;
+    font-size: 14px;
+}
+.bname{
+    color: #858d99;
+    font-size: 14px;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-color: antiquewhite;
+    border-top-right-radius: 7px;
+    padding: 20px;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.header-left h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.header-left span{
+     color: rgb(100, 97, 97);
+    font-weight: 600;
+    border: 0px solid #bbbbbb;
+    border-radius: 8px;
+    background-color: #f2f3f7;
+    font-size: small;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding: 4px;
+}
+.header-right h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    text-align: right;
+    
+}
